@@ -24,4 +24,5 @@ windows_package "gow" do
     source node["gow"]["url"]
     installer_type :nsis
     action :install
+    not_if {::File.exists?("C:/Program Files (x86)/Gow/bin/gow.bat")}
 end
