@@ -6,6 +6,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.3"
 supports         "windows"
 
+
 depends          "windows", ">= 1.2.8"
 
 "gow Chef Recipe Copyright (C) 2012 Justin Witrick
