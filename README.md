@@ -10,7 +10,7 @@ This needs windows cookbooks.
 
 Attributes
 ==========
-default["gow"]["url"] = "https://github.com/downloads/bmatzelle/gow/Gow-0.5.0.exe"
+default["gow"]["url"] = "https://github.com/bmatzelle/gow/releases/download/v0.8.0/Gow-0.8.0.exe"
 
 Usage
 =====
